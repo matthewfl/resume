@@ -1,0 +1,87 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+%thinking of trying to get the things as much as possible onto one line each so that more can be fit onto it
+
+\documentclass[margin]{res}
+% the margin option causes section titles to appear to the left of body text
+\textwidth=5.2in % increase textwidth to get smaller right margin
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\setlength{\textheight}{10in}
+
+\begin{document}
+
+\name{Matthew Francis-Landau\\[12pt]} % the \\[12pt] adds a blank line after name
+
+%\address{{\bf Present Address} \\ Matthew Francis-Landau \\ 3A21A \\ 2700 Hearst Ave \\ Berkeley, CA 94720 \\
+%        (424) 646-3355 }
+\address{{\bf Permanent Address} \\ Matthew Francis-Landau \\ 6982 Verde Ridge Rd \\ Rancho Palos Verdes, CA 90275  \\
+        (424) 646-3355 }
+\address{{\bf Internet Addresses} \\ matthew@matthewfl.com \\ http://matthewfl.com \\ http://github.com/matthewfl }
+
+
+\begin{resume}
+
+\section{Objective}
+%To have impact on a growing company who is dedicated to helping users in new ways through data analysis.
+To have a positive impact on a growing company who is dedicated to helping users through data analysis while furthering experience in professional work environments.
+
+\section{Education}
+First year undergraduate at UC Berkeley, Computer Science and Mathematics major. \\
+High school at California Academy of Math and Science, unweighted GPA: 3.8. \\
+Completed 50 college units during high school, currently completed 66.
+
+
+\section{Experience}
+{\bf Technical Intern,} Motion Picture Marine, Venice CA \hfill Summer 2011
+\begin{itemize} \itemsep -2pt  % reduce space between items
+  \item Developed vibration detection and elimination method using fourier transformation and automatic PID gain adjustment.
+  \item Debugged hardware and software issue relating to mass production of Perfect Horizon units.
+  \item Co-authored grant to develop high school robotics program under Office of Naval Research (ONR).
+  \item Designed technologies for remote internet connection and upgrades to in field units.
+\end{itemize}
+
+
+\section{Leadership Experience}
+{\bf Project Manager,} Red Inc. \hfill 2011-2012
+\begin{itemize} \itemsep -2pt
+  \item Led team of 15 high schoolers to develop spherical flying robot.
+  \item Manufactured custom propellers to meet size requirements of 10 inches.
+  \item Produced three different technical documents: Project proposal, Proof of concept, Manual/product documentation.
+\end{itemize}
+
+{\bf Programming Leader,} Nerd Herd Robotics team \hfill 2010-2012
+\begin{itemize} \itemsep -2pt
+  \item Trained 120 students in basic robotic programming
+  \item Converted team from 3 different GUI programming environments to C/C++ based systems. % possibly take out the word based, to save space
+  \item Mentored middle school students in basics of build robots for competition.
+\end{itemize}
+
+
+\section{Projects}
+{\bf JSApp.us} \hfill November 2010 to Today
+\begin{itemize} \itemsep -2pt
+  \item First open registration Node.js hosting platform.
+  \item Features online code editor and live online testing.
+  \item Enables trying the Node.js platform out quickly without installing anything.
+\end{itemize}
+
+{\bf i-Lang} \hfill Summer 2012 to Today
+\begin{itemize} \itemsep -2pt
+  \item New programming language based around a function programming paradigm.
+  \item Functions, classes, objects are viewed as ``anonymous,'' variables only provided a means for accessing what was previously defined.
+  \item Language was designed to study paradigm of self modifying code at a level higher than assembly.
+  \item Features an integrated database for ease of use when working with data.
+  \item Future plans for developing network distribution system to enable working with large data sets in parallel.
+\end{itemize}
+
+\section{Computer \\ Skills}
+   \begin{tabular}{l p{3in}}
+    \underline{Highly Proficient at:} & C++, JavaScript \\
+
+     \underline{Technologies:} & Linux, Node.js, MonogoDB, Tokyo Tyrant, Arduino, Mbed, Mathematica
+ \end{tabular}
+
+\end{resume}
+\end{document}
